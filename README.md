@@ -1,3 +1,5 @@
+CONFIGURAÇÕES INICIAIS:
+
 - Instalar o projeto: laravel new nomeDoProjeto
 - Configurar o .env: dados do banco de dados 
 - Configurar o config/database.php: colocar o BD como utf8 e utf8_general_ci
@@ -51,3 +53,7 @@
         return [];
     }
 - Testar novamente o ping no rest e pronto!
+
+CRIANDO MIGRATIONS:
+
+- php artisan make:migration createalltables
